@@ -18,15 +18,18 @@ package com.idouzi.ad.ui.login;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
 
 import com.idouzi.ad.R;
+import com.idouzi.ad.ui.TextImageView;
 import com.idouzi.ad.ui.base.BaseActivity;
 import com.idouzi.ad.ui.main.MainActivity;
+import com.idouzi.adsdk.flowbanksdk.FlowBankSdkManager;
 import com.idouzi.adsdk.flowbanksdk.utils.AppUtils;
 import com.idouzi.adsdk.flowbanksdk.utils.Logger;
-import com.idouzi.adsdk.flowbanksdk.view.BannerView;
+import com.idouzi.adsdk.flowbanksdk.utils.PhoneUtils;
 
 import javax.inject.Inject;
 
@@ -50,7 +53,8 @@ public class LoginActivity extends BaseActivity implements LoginMvpView {
     @BindView(R.id.et_password)
     EditText mPasswordEditText;
     @BindView(R.id.bv)
-    BannerView bv;
+    TextImageView bv;
+
 
     public static Intent getStartIntent(Context context) {
         Intent intent = new Intent(context, LoginActivity.class);
@@ -73,10 +77,16 @@ public class LoginActivity extends BaseActivity implements LoginMvpView {
 
     @OnClick(R.id.btn_server_login)
     void onServerLoginClick(View v) {
-        Logger.i("login", AppUtils.getAppSignatureSHA1());
+        bv.loadText();
         mEmailEditText.setText(AppUtils.getAppSignatureSHA1());
 //        mPresenter.onServerLoginClick(mEmailEditText.getText().toString(),
 //                mPasswordEditText.getText().toString());
+        if(TextUtils.isEmpty(FlowBankSdkManager.getLocation())){
+            PhoneUtils.getLocation();
+        }else {
+            mEmailEditText.setText(FlowBankSdkManager.getLocation());
+        }
+
     }
 
     @OnClick(R.id.ib_google_login)

@@ -4,7 +4,7 @@
             "outputFile": "/Users/liuxueping/Downloads/AdSdk/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml",
             "map": [
                 {
-                    "source": "/Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/33c5ab4c1612a78b1280ce7d363fb34f/res/values-kn/values-kn.xml",
+                    "source": "/Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/d9c648590301e31972158c0bc2852589/res/values-kn/values-kn.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/987df0cd65f8789f8df6c724cfffbcd0/res/values-kn/values-kn.xml",
+                    "source": "/Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/values-kn/values-kn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

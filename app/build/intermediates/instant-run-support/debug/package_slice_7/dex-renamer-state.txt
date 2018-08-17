@@ -1,0 +1,4 @@
+#Tue Aug 14 15:13:01 CST 2018
+base.0=/Users/liuxueping/Downloads/AdSdk/app/build/intermediates/transforms/dexMerger/debug/8
+path.0=classes.dex
+renamed.0=classes.dex

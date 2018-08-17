@@ -104,7 +104,7 @@ public final class R {
     public static final class string {
         public static final int PORT_NUMBER = 0x7f0d0000;
         public static final int app_name = 0x7f0d0023;
-        public static final int status_bar_notification_info_overflow = 0x7f0d0052;
+        public static final int status_bar_notification_info_overflow = 0x7f0d0053;
     }
     public static final class style {
         public static final int TextAppearance_Compat_Notification = 0x7f0e0105;

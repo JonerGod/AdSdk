@@ -19,7 +19,7 @@ apply from: '../config/quality/quality.gradle'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
-    buildToolsVersion rootProject.ext.buildToolsVersion
+    buildToolsVersion '27.0.3'
     defaultConfig {
         applicationId "com.idouzi.ad"
         minSdkVersion rootProject.ext.minSdkVersion
@@ -40,6 +40,10 @@ android {
             buildConfigField("String", "BASE_URL", "\"http://www.mocky.io/v2\"")
             buildConfigField("String", "API_KEY", "\"ABCXYZ123TEST\"")
         }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 }
 

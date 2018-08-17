@@ -110,11 +110,12 @@
                 android:text="@string/login"
                 android:textSize="18dp" />
 
-            <com.idouzi.adsdk.flowbanksdk.view.BannerView
+            <com.idouzi.ad.ui.TextImageView
                 android:id="@+id/bv"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:adUnitId="sdsdsdsdsdxcxc" />
+                android:layout_height="60dp"
+                android:background="@color/black"
+            />
         </LinearLayout>
 
         <LinearLayout

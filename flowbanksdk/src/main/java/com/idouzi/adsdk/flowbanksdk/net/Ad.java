@@ -8,6 +8,7 @@ public class Ad {
     String url;
     String id;
     String imgUrl;
+    String text;
 
     public String getUrl() {
         return url;
@@ -31,5 +32,13 @@ public class Ad {
 
     public void setImgUrl(String imgUrl) {
         this.imgUrl = imgUrl;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
     }
 }

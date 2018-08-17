@@ -2,7 +2,11 @@ package com.idouzi.adsdk.flowbanksdk.utils;
 
 import android.content.Context;
 import android.graphics.Point;
+import android.graphics.Rect;
 import android.os.Build;
+import android.support.annotation.NonNull;
+import android.view.View;
+import android.view.ViewGroup;
 import android.view.WindowManager;
 
 import com.idouzi.adsdk.flowbanksdk.FlowBankSdkManager;
@@ -61,4 +65,48 @@ public final class ConvertUtils {
         final float scale = FlowBankSdkManager.getApp().getResources().getDisplayMetrics().density;
         return (int) (pxValue / scale + 0.5f);
     }
+
+
+    public static boolean isCover(@NonNull View view) {
+        Rect currentViewRect = new Rect();
+        boolean cover = view.getGlobalVisibleRect(currentViewRect);
+        if (cover) {
+            if (currentViewRect.width() < view.getMeasuredWidth() || currentViewRect.height() < view.getMeasuredHeight()) {
+                return true;
+            }
+        } else {
+            return true;
+        }
+        View currentView = view;
+        while (currentView.getParent() instanceof ViewGroup) {
+            ViewGroup viewGroup = (ViewGroup) currentView.getParent();
+            if (viewGroup.getVisibility() != View.VISIBLE) {
+                return true;
+            }
+
+            int start = indexofViewInParent(currentView, viewGroup);
+            for (int i = start + 1; i < viewGroup.getChildCount(); i++) {
+                Rect otherRect = new Rect();
+                View otherView = viewGroup.getChildAt(i);
+                otherView.getGlobalVisibleRect(otherRect);
+                if (Rect.intersects(currentViewRect, otherRect)) {
+                    return true;
+                }
+            }
+            currentView = viewGroup;
+        }
+
+        return false;
+    }
+
+    private static int indexofViewInParent(View view, ViewGroup viewGroup) {
+        int index;
+        for (index = 0; index < viewGroup.getChildCount(); index++) {
+            if (viewGroup.getChildAt(index) == view) {
+                break;
+            }
+        }
+        return index;
+    }
+
 }

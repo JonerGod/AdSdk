@@ -2,10 +2,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.idouzi.adsdk.flowbanksdk">
 
+
+    <uses-permission android:name="android.permisstion.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <application>
         <activity android:name=".activity.WebViewActivity"></activity>
     </application>
 
+    <meta-data
+        android:name="com.baidu.lbsapi.API_KEY"
+        android:value="lbXmQideVEA5mQT7xFHYxg2N" >
+    </meta-data>
 </manifest>

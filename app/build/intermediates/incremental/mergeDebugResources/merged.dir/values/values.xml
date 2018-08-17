@@ -857,6 +857,7 @@
     <string name="rating_play_store_redirect_message_line_2">Please help others, in knowing some good things about this app.</string>
     <string name="rating_play_store_text">Rate us on Play Store</string>
     <string name="rating_thanks">Thank you!</string>
+    <string name="refuse_permission">拒绝授权</string>
     <string name="retry">Retry</string>
     <string name="search_menu_title">Search</string>
     <string name="share">Share</string>

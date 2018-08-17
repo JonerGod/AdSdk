@@ -1,0 +1,167 @@
+# Referenced at /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/bundles/release/res/layout/activity_web_view.xml:2
+-keep class android.support.constraint.ConstraintLayout { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5a3236299fdb5cce3c44510acfca1d97/res/layout/design_bottom_navigation_item.xml:26
+-keep class android.support.design.internal.BaselineLayout { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5a3236299fdb5cce3c44510acfca1d97/res/layout/design_navigation_item.xml:17
+-keep class android.support.design.internal.NavigationMenuItemView { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5a3236299fdb5cce3c44510acfca1d97/res/layout/design_navigation_menu.xml:17
+-keep class android.support.design.internal.NavigationMenuView { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5a3236299fdb5cce3c44510acfca1d97/res/layout/design_layout_snackbar_include.xml:18
+-keep class android.support.design.internal.SnackbarContentLayout { <init>(...); }
+
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/src/main/res/layout/activity_feed.xml:22
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/src/main/res/layout/activity_main.xml:35
+-keep class android.support.design.widget.AppBarLayout { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5a3236299fdb5cce3c44510acfca1d97/res/layout/design_text_input_password_icon.xml:18
+-keep class android.support.design.widget.CheckableImageButton { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5a3236299fdb5cce3c44510acfca1d97/res/layout/design_bottom_sheet_dialog.xml:26
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/src/main/res/layout/activity_main.xml:23
+-keep class android.support.design.widget.CoordinatorLayout { <init>(...); }
+
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/src/main/res/layout/activity_main.xml:63
+-keep class android.support.design.widget.NavigationView { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5a3236299fdb5cce3c44510acfca1d97/res/layout-sw600dp-v13/design_layout_snackbar.xml:18
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5a3236299fdb5cce3c44510acfca1d97/res/layout/design_layout_snackbar.xml:18
+-keep class android.support.design.widget.Snackbar$SnackbarLayout { <init>(...); }
+
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/src/main/res/layout/activity_feed.xml:36
+-keep class android.support.design.widget.TabLayout { <init>(...); }
+
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/src/main/res/layout/activity_login.xml:56
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/src/main/res/layout/activity_login.xml:83
+-keep class android.support.design.widget.TextInputEditText { <init>(...); }
+
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/src/main/res/layout/activity_login.xml:50
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/src/main/res/layout/activity_login.xml:75
+-keep class android.support.design.widget.TextInputLayout { <init>(...); }
+
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/src/main/res/layout/activity_feed.xml:47
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/src/main/res/layout/activity_main.xml:16
+-keep class android.support.v4.widget.DrawerLayout { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_alert_dialog_material.xml:41
+-keep class android.support.v4.widget.NestedScrollView { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_alert_dialog_button_bar_material.xml:43
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_alert_dialog_material.xml:52
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_alert_dialog_material.xml:66
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_alert_dialog_title_material.xml:56
+-keep class android.support.v4.widget.Space { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_select_dialog_material.xml:23
+-keep class android.support.v7.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_action_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_expanded_menu_layout.xml:17
+-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_list_menu_item_layout.xml:17
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_popup_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout-v26/abc_screen_toolbar.xml:27
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_screen_toolbar.xml:27
+-keep class android.support.v7.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout-v26/abc_screen_toolbar.xml:44
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_action_mode_bar.xml:19
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_screen_toolbar.xml:43
+-keep class android.support.v7.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout-v26/abc_screen_toolbar.xml:17
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_screen_toolbar.xml:17
+-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_action_menu_layout.xml:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_activity_chooser_view.xml:19
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_alert_dialog_material.xml:18
+-keep class android.support.v7.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_alert_dialog_button_bar_material.xml:26
+-keep class android.support.v7.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/src/main/res/layout/activity_login.xml:23
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/src/main/res/layout/card_layout.xml:17
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/src/main/res/layout/dialog_rate_us.xml:22
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/src/main/res/layout/item_blog_view.xml:23
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/src/main/res/layout/item_repo_view.xml:23
+-keep class android.support.v7.widget.CardView { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_screen_content_include.xml:19
+-keep class android.support.v7.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_alert_dialog_title_material.xml:45
+-keep class android.support.v7.widget.DialogTitle { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_screen_simple_overlay_action_mode.xml:23
+-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_dialog_title_material.xml:22
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_screen_simple.xml:17
+-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/src/main/res/layout/fragment_blog.xml:23
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/src/main/res/layout/fragment_open_source.xml:23
+-keep class android.support.v7.widget.RecyclerView { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_search_view.xml:75
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout-v26/abc_screen_toolbar.xml:37
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_screen_toolbar.xml:36
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/src/main/res/layout/activity_feed.xml:26
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/src/main/res/layout/activity_main.xml:40
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_screen_simple.xml:25
+# Referenced at /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/layout/abc_screen_simple_overlay_action_mode.xml:32
+-keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/src/main/res/layout/card_layout.xml:46
+-keep class com.androidnetworking.widget.ANImageView { <init>(...); }
+
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/build/intermediates/manifests/full/release/AndroidManifest.xml:35
+-keep class com.idouzi.ad.MvpApp { <init>(...); }
+
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/build/intermediates/manifests/full/release/AndroidManifest.xml:42
+-keep class com.idouzi.ad.service.SyncService { <init>(...); }
+
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/src/main/res/layout/activity_login.xml:113
+-keep class com.idouzi.ad.ui.TextImageView { <init>(...); }
+
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/src/main/res/layout/drawer_header.xml:23
+-keep class com.idouzi.ad.ui.custom.RoundedImageView { <init>(...); }
+
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/build/intermediates/manifests/full/release/AndroidManifest.xml:63
+-keep class com.idouzi.ad.ui.feed.FeedActivity { <init>(...); }
+
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/build/intermediates/manifests/full/release/AndroidManifest.xml:55
+-keep class com.idouzi.ad.ui.login.LoginActivity { <init>(...); }
+
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/build/intermediates/manifests/full/release/AndroidManifest.xml:59
+-keep class com.idouzi.ad.ui.main.MainActivity { <init>(...); }
+
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/build/intermediates/manifests/full/release/AndroidManifest.xml:44
+-keep class com.idouzi.ad.ui.splash.SplashActivity { <init>(...); }
+
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/build/intermediates/manifests/full/release/AndroidManifest.xml:74
+-keep class com.idouzi.adsdk.flowbanksdk.activity.WebViewActivity { <init>(...); }
+
+# Referenced at /Users/liuxueping/Downloads/AdSdk/app/src/main/res/layout/activity_main.xml:55
+-keep class com.mindorks.placeholderview.SwipePlaceHolderView { <init>(...); }
+

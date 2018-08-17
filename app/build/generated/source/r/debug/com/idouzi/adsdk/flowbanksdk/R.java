@@ -393,6 +393,7 @@ public final class R {
         public static final int material_grey_900 = 0x7f05005c;
         public static final int notification_action_color_filter = 0x7f05005f;
         public static final int notification_icon_bg_color = 0x7f050060;
+        public static final int notification_material_background_media_default_color = 0x7f050061;
         public static final int primary_dark_material_dark = 0x7f050063;
         public static final int primary_dark_material_light = 0x7f050064;
         public static final int primary_material_dark = 0x7f050065;
@@ -629,6 +630,7 @@ public final class R {
         public static final int tooltip_frame_light = 0x7f070094;
     }
     public static final class id {
+        public static final int action0 = 0x7f080006;
         public static final int action_bar = 0x7f080007;
         public static final int action_bar_activity_content = 0x7f080008;
         public static final int action_bar_container = 0x7f080009;
@@ -655,6 +657,7 @@ public final class R {
         public static final int basic = 0x7f080026;
         public static final int blocking = 0x7f080028;
         public static final int buttonPanel = 0x7f080033;
+        public static final int cancel_action = 0x7f080036;
         public static final int chains = 0x7f08003c;
         public static final int checkbox = 0x7f08003d;
         public static final int chronometer = 0x7f08003e;
@@ -664,6 +667,7 @@ public final class R {
         public static final int decor_content_parent = 0x7f08004b;
         public static final int default_activity_button = 0x7f08004c;
         public static final int edit_query = 0x7f080054;
+        public static final int end_padder = 0x7f080056;
         public static final int expand_activities_button = 0x7f08005d;
         public static final int expanded_menu = 0x7f08005e;
         public static final int forever = 0x7f080064;
@@ -677,6 +681,7 @@ public final class R {
         public static final int line3 = 0x7f080077;
         public static final int listMode = 0x7f080079;
         public static final int list_item = 0x7f08007a;
+        public static final int media_actions = 0x7f08007c;
         public static final int message = 0x7f08007d;
         public static final int multiply = 0x7f080080;
         public static final int none = 0x7f080089;
@@ -715,6 +720,7 @@ public final class R {
         public static final int src_atop = 0x7f0800bd;
         public static final int src_in = 0x7f0800be;
         public static final int src_over = 0x7f0800bf;
+        public static final int status_bar_latest_event_content = 0x7f0800c1;
         public static final int submenuarrow = 0x7f0800c2;
         public static final int submit_area = 0x7f0800c3;
         public static final int tabMode = 0x7f0800c4;
@@ -771,8 +777,17 @@ public final class R {
         public static final int activity_web_view = 0x7f0a001e;
         public static final int notification_action = 0x7f0a0036;
         public static final int notification_action_tombstone = 0x7f0a0037;
+        public static final int notification_media_action = 0x7f0a0038;
+        public static final int notification_media_cancel_action = 0x7f0a0039;
+        public static final int notification_template_big_media = 0x7f0a003a;
+        public static final int notification_template_big_media_custom = 0x7f0a003b;
+        public static final int notification_template_big_media_narrow = 0x7f0a003c;
+        public static final int notification_template_big_media_narrow_custom = 0x7f0a003d;
         public static final int notification_template_custom_big = 0x7f0a003e;
         public static final int notification_template_icon_group = 0x7f0a003f;
+        public static final int notification_template_lines_media = 0x7f0a0040;
+        public static final int notification_template_media = 0x7f0a0041;
+        public static final int notification_template_media_custom = 0x7f0a0042;
         public static final int notification_template_part_chronometer = 0x7f0a0043;
         public static final int notification_template_part_time = 0x7f0a0044;
         public static final int select_dialog_item_material = 0x7f0a0046;
@@ -812,8 +827,9 @@ public final class R {
         public static final int abc_shareactionprovider_share_with_application = 0x7f0d001c;
         public static final int abc_toolbar_collapse_description = 0x7f0d001d;
         public static final int app_name = 0x7f0d0023;
-        public static final int search_menu_title = 0x7f0d004f;
-        public static final int status_bar_notification_info_overflow = 0x7f0d0052;
+        public static final int refuse_permission = 0x7f0d004e;
+        public static final int search_menu_title = 0x7f0d0050;
+        public static final int status_bar_notification_info_overflow = 0x7f0d0053;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat = 0x7f0e0000;
@@ -1057,9 +1073,14 @@ public final class R {
         public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 0x7f0e0104;
         public static final int TextAppearance_Compat_Notification = 0x7f0e0105;
         public static final int TextAppearance_Compat_Notification_Info = 0x7f0e0106;
+        public static final int TextAppearance_Compat_Notification_Info_Media = 0x7f0e0107;
         public static final int TextAppearance_Compat_Notification_Line2 = 0x7f0e0108;
+        public static final int TextAppearance_Compat_Notification_Line2_Media = 0x7f0e0109;
+        public static final int TextAppearance_Compat_Notification_Media = 0x7f0e010a;
         public static final int TextAppearance_Compat_Notification_Time = 0x7f0e010b;
+        public static final int TextAppearance_Compat_Notification_Time_Media = 0x7f0e010c;
         public static final int TextAppearance_Compat_Notification_Title = 0x7f0e010d;
+        public static final int TextAppearance_Compat_Notification_Title_Media = 0x7f0e010e;
         public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 0x7f0e011a;
         public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 0x7f0e011b;
         public static final int TextAppearance_Widget_AppCompat_Toolbar_Title = 0x7f0e011c;

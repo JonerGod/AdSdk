@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FlowBankSDK</string>
+    <string name="refuse_permission">拒绝授权</string>
 </resources>

@@ -4,7 +4,7 @@
             "outputFile": "/Users/liuxueping/Downloads/AdSdk/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/liuxueping/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5851b2156735c0342e97ddd70c76c81c/res/values-land/values-land.xml",
+                    "source": "/Users/liuxueping/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5a3236299fdb5cce3c44510acfca1d97/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/987df0cd65f8789f8df6c724cfffbcd0/res/values-land/values-land.xml",
+                    "source": "/Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

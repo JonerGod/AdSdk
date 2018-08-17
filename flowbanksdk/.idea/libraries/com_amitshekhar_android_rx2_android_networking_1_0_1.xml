@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.amitshekhar.android:rx2-android-networking-1.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rx2-android-networking-1.0.1.aar/0c46fac073f0f4570ef2d1d3a4229061/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rx2-android-networking-1.0.1.aar/0c46fac073f0f4570ef2d1d3a4229061/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amitshekhar.android/rx2-android-networking/1.0.1/c06fa8cf6f8fcd890adef840ef143ec2a8fb060c/rx2-android-networking-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

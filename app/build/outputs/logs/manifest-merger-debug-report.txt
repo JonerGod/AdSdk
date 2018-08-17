@@ -1,219 +1,226 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:16:1-67:12
-INJECTED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:16:1-67:12
-INJECTED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:16:1-67:12
-INJECTED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:16:1-67:12
-MERGED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/f3d435f7c795799337ccac859593faac/AndroidManifest.xml:20:1-40:12
-MERGED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-18:12
-MERGED from [com.android.support:design:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5851b2156735c0342e97ddd70c76c81c/AndroidManifest.xml:17:1-22:12
-MERGED from [uk.co.chrisjenx:calligraphy:2.2.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/calligraphy-2.2.0.aar/2224d8acdf579ebcf6cdf6c73d278c92/AndroidManifest.xml:2:1-13:12
-MERGED from [com.amitshekhar.android:rx2-android-networking:1.0.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/rx2-android-networking-1.0.1.aar/68ef8e7d6b4a3c5d89059b5b0def7142/AndroidManifest.xml:20:1-29:12
-MERGED from [com.amitshekhar.android:android-networking:1.0.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/android-networking-1.0.1.aar/cc8b635b94a61dad5f57607affcd2f44/AndroidManifest.xml:18:1-27:12
-MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/987df0cd65f8789f8df6c724cfffbcd0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.mindorks:placeholderview:0.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/placeholderview-0.6.1.aar/5432036e671eb5fe0821169145de1d45/AndroidManifest.xml:2:1-12:12
-MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/f2121ea2f549edd24129a86c276e9a8d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/39bcee298355baae92f4e57c1d1ca55c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/d685bf2933153190213434c9723bd6a5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/a4c1359ddb0982538ac9d4b0d120b109/AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:glide:4.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/ceafdad2f4aee89c1ff4449b951c4281/AndroidManifest.xml:2:1-13:12
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/20d3b404c7b085b2bb1c57624dc7f3d5/AndroidManifest.xml:15:1-21:12
-MERGED from [com.jakewharton:butterknife:8.6.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/butterknife-8.6.0.aar/c1cc6924c555dd4ae4d07ef0d64bd8da/AndroidManifest.xml:2:1-7:12
-MERGED from [com.jakewharton.timber:timber:4.5.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/fa7e45ced22ae218e6961d9e2ec26ce2/AndroidManifest.xml:2:1-10:12
-MERGED from [net.zetetic:android-database-sqlcipher:3.5.7] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/android-database-sqlcipher-3.5.7.aar/c1402c89eb3051702997a3b94959a803/AndroidManifest.xml:2:1-4:12
-MERGED from [android.arch.persistence.room:runtime:1.0.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/3d38842ef1399e4ddfd19a391bf03b8e/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-v4:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/d8394ca46ace2c6b6c9cc8a0e6a8746a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/af8ca4c935a0a764108ab289c5dc22b6/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/eec0ee8425fbbe23fb240f657e4a3cbb/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/a323672a9eb626536935fb0c4acdf4be/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.persistence:db-framework:1.0.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/db-framework-1.0.0.aar/4e9cbbcfc96d1b09003289c76a2e3c3b/AndroidManifest.xml:17:1-24:12
-MERGED from [android.arch.persistence:db:1.0.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/db-1.0.0.aar/d9597e95db4df36ea1c23a7b19ced441/AndroidManifest.xml:17:1-24:12
-MERGED from [android.arch.core:runtime:1.0.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/627fe7be5e7ca733842bf52a2ed86434/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-media-compat:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/08d85730da01351572f927666881eb34/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/2acaef3b68a899932377384f8e00a26d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/33c5ab4c1612a78b1280ce7d363fb34f/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/d3a1c698e79f85c70766ca35a364922a/AndroidManifest.xml:17:1-24:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/de5eb84646bdf807a015ce6ca8e0f4c5/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/d8f9972df9674c9751d4048023c79554/AndroidManifest.xml:2:1-11:12
-INJECTED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:16:1-67:12
-INJECTED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:16:1-67:12
-INJECTED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:16:1-67:12
+ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:16:1-66:12
+INJECTED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:16:1-66:12
+INJECTED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:16:1-66:12
+INJECTED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:16:1-66:12
+MERGED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/6721f951c2169cfdc2c699d03187442c/AndroidManifest.xml:20:1-40:12
+MERGED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-25:12
+MERGED from [com.android.support:design:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5a3236299fdb5cce3c44510acfca1d97/AndroidManifest.xml:17:1-22:12
+MERGED from [uk.co.chrisjenx:calligraphy:2.2.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/calligraphy-2.2.0.aar/7b069cc395669e0d74958326e206bd3d/AndroidManifest.xml:2:1-13:12
+MERGED from [com.amitshekhar.android:rx2-android-networking:1.0.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/rx2-android-networking-1.0.1.aar/b93ca9012a1d41c9700131202c2c4729/AndroidManifest.xml:20:1-29:12
+MERGED from [com.amitshekhar.android:android-networking:1.0.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/android-networking-1.0.1.aar/01abad7945cc88dd541e90b58cc5e131/AndroidManifest.xml:18:1-27:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/AndroidManifest.xml:17:1-22:12
+MERGED from [com.mindorks:placeholderview:0.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/placeholderview-0.6.1.aar/7212c5779693b00fa8f5ba37df1d6ad7/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/ea0cd22170a92ec5f17ca4936d612411/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/a1acf1cc60150fc9dad2def4c96fefa4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/7cc823e9288b01f3dd3b00561e7cc272/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/53483160ee77b0360316b99419377a8f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/05ec28a8e22951c6d8d38d17ae9ecb48/AndroidManifest.xml:2:1-13:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/be0190fd86d679b764323e5e6f194d97/AndroidManifest.xml:15:1-21:12
+MERGED from [com.jakewharton:butterknife:8.6.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/butterknife-8.6.0.aar/0a71762a241298d294941720a23487e7/AndroidManifest.xml:2:1-7:12
+MERGED from [com.jakewharton.timber:timber:4.5.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/536b6cae70925805980313b49624d1e1/AndroidManifest.xml:2:1-10:12
+MERGED from [net.zetetic:android-database-sqlcipher:3.5.7] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/android-database-sqlcipher-3.5.7.aar/6b8d37b3b4192f8c040982251017e6b6/AndroidManifest.xml:2:1-4:12
+MERGED from [android.arch.persistence.room:runtime:1.0.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/52a1d77436c0422bff1a0ad8e2472b98/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/fc6afd7ced0adc920b4fbf458d54838b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/d41e010def72dd8b00e0bc7be4279186/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/3ac278813a566324b4126b060d6e9efb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/00b846ab38feb01d8002d1b74a2fc07f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/rxbinding-0.4.0.aar/34da5d6949ed6f38f0a24704d5d9e0f7/AndroidManifest.xml:2:1-8:12
+MERGED from [android.arch.persistence:db-framework:1.0.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/db-framework-1.0.0.aar/fba64ffd5d08443fc097cb5a4c4b7586/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.persistence:db:1.0.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/db-1.0.0.aar/1bd3a2437edb400a60853cd20acbee33/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.core:runtime:1.0.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/aa2314c11d50ec6ab4969227ca3fe526/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/5d5d4d896eccb9353047b4a17f04cdaf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/3e456aabb9dbe3e2a565b5893e46bdb7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/d9c648590301e31972158c0bc2852589/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/5d08345df77b6eedba47166b7c4ae0ec/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/0c1c710db7e3959181817d2a1a6d9d78/AndroidManifest.xml:2:1-11:12
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.9.5.aar/1327185794f85b902f00dcff286e5dcc/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/849e8ab79c3fe1830fe262800da2e5b7/AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex:rxandroid:1.1.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/rxandroid-1.1.0.aar/ced555bcca2e4c3a6696eaf61898b811/AndroidManifest.xml:15:1-21:12
+INJECTED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:16:1-66:12
+INJECTED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:16:1-66:12
+INJECTED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:16:1-66:12
 	package
 		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:17:5-28
 		INJECTED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:16:1-67:12
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:16:1-66:12
 		INJECTED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:16:1-67:12
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:16:1-66:12
 		INJECTED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:16:11-69
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:19:5-79
-	android:name
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:19:22-76
 uses-permission#android.permission.INTERNET
-ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:20:5-67
-MERGED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/f3d435f7c795799337ccac859593faac/AndroidManifest.xml:29:5-67
-MERGED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/f3d435f7c795799337ccac859593faac/AndroidManifest.xml:29:5-67
-MERGED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-67
-MERGED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-67
+ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:19:5-67
+MERGED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/6721f951c2169cfdc2c699d03187442c/AndroidManifest.xml:29:5-67
+MERGED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/6721f951c2169cfdc2c699d03187442c/AndroidManifest.xml:29:5-67
+MERGED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-67
+MERGED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-67
 	android:name
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:20:22-64
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:19:22-64
 application
-ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:22:5-65:19
-MERGED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/f3d435f7c795799337ccac859593faac/AndroidManifest.xml:32:5-38:19
-MERGED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/f3d435f7c795799337ccac859593faac/AndroidManifest.xml:32:5-38:19
-MERGED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-16:19
-MERGED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-16:19
-MERGED from [uk.co.chrisjenx:calligraphy:2.2.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/calligraphy-2.2.0.aar/2224d8acdf579ebcf6cdf6c73d278c92/AndroidManifest.xml:11:5-20
-MERGED from [uk.co.chrisjenx:calligraphy:2.2.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/calligraphy-2.2.0.aar/2224d8acdf579ebcf6cdf6c73d278c92/AndroidManifest.xml:11:5-20
-MERGED from [com.github.bumptech.glide:glide:4.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/ceafdad2f4aee89c1ff4449b951c4281/AndroidManifest.xml:11:5-20
-MERGED from [com.github.bumptech.glide:glide:4.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/ceafdad2f4aee89c1ff4449b951c4281/AndroidManifest.xml:11:5-20
-MERGED from [com.jakewharton.timber:timber:4.5.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/fa7e45ced22ae218e6961d9e2ec26ce2/AndroidManifest.xml:8:5-20
-MERGED from [com.jakewharton.timber:timber:4.5.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/fa7e45ced22ae218e6961d9e2ec26ce2/AndroidManifest.xml:8:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/de5eb84646bdf807a015ce6ca8e0f4c5/AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/de5eb84646bdf807a015ce6ca8e0f4c5/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/d8f9972df9674c9751d4048023c79554/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/d8f9972df9674c9751d4048023c79554/AndroidManifest.xml:9:5-20
+ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:21:5-64:19
+MERGED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/6721f951c2169cfdc2c699d03187442c/AndroidManifest.xml:32:5-38:19
+MERGED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/6721f951c2169cfdc2c699d03187442c/AndroidManifest.xml:32:5-38:19
+MERGED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:21:5-23:19
+MERGED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:21:5-23:19
+MERGED from [uk.co.chrisjenx:calligraphy:2.2.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/calligraphy-2.2.0.aar/7b069cc395669e0d74958326e206bd3d/AndroidManifest.xml:11:5-20
+MERGED from [uk.co.chrisjenx:calligraphy:2.2.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/calligraphy-2.2.0.aar/7b069cc395669e0d74958326e206bd3d/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/05ec28a8e22951c6d8d38d17ae9ecb48/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/05ec28a8e22951c6d8d38d17ae9ecb48/AndroidManifest.xml:11:5-20
+MERGED from [com.jakewharton.timber:timber:4.5.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/536b6cae70925805980313b49624d1e1/AndroidManifest.xml:8:5-20
+MERGED from [com.jakewharton.timber:timber:4.5.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/536b6cae70925805980313b49624d1e1/AndroidManifest.xml:8:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/0c1c710db7e3959181817d2a1a6d9d78/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/0c1c710db7e3959181817d2a1a6d9d78/AndroidManifest.xml:9:5-20
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.9.5.aar/1327185794f85b902f00dcff286e5dcc/AndroidManifest.xml:11:5-20
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.9.5.aar/1327185794f85b902f00dcff286e5dcc/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/849e8ab79c3fe1830fe262800da2e5b7/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/849e8ab79c3fe1830fe262800da2e5b7/AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:27:9-35
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:26:9-35
 	android:label
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:26:9-41
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:25:9-41
 	android:icon
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:25:9-43
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:24:9-43
 	android:allowBackup
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:24:9-35
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:23:9-35
 	android:theme
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:28:9-40
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:27:9-40
 	android:name
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:23:9-44
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:22:9-44
 service#com.idouzi.ad.service.SyncService
-ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:30:9-56
+ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:29:9-56
 	android:name
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:30:18-53
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:29:18-53
 activity#com.idouzi.ad.ui.splash.SplashActivity
-ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:32:9-41:20
+ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:31:9-40:20
 	android:screenOrientation
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:35:13-49
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:34:13-49
 	android:launchMode
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:34:13-43
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:33:13-43
 	android:theme
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:36:13-54
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:35:13-54
 	android:name
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:33:13-66
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:32:13-66
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:37:13-40:29
+ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:36:13-39:29
 action#android.intent.action.MAIN
-ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:38:17-69
+ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:37:17-69
 	android:name
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:38:25-66
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:37:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:39:17-77
+ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:38:17-77
 	android:name
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:39:27-74
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:38:27-74
 activity#com.idouzi.ad.ui.login.LoginActivity
-ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:43:9-46:52
+ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:42:9-45:52
 	android:screenOrientation
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:46:13-49
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:45:13-49
 	android:launchMode
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:45:13-43
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:44:13-43
 	android:name
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:44:13-64
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:43:13-64
 activity#com.idouzi.ad.ui.main.MainActivity
-ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:48:9-51:52
+ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:47:9-50:52
 	android:screenOrientation
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:51:13-49
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:50:13-49
 	android:launchMode
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:50:13-43
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:49:13-43
 	android:name
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:49:13-62
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:48:13-62
 activity#com.idouzi.ad.ui.feed.FeedActivity
-ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:53:9-63:20
+ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:52:9-62:20
 	android:screenOrientation
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:57:13-49
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:56:13-49
 	android:parentActivityName
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:56:13-63
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:55:13-63
 	android:launchMode
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:55:13-43
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:54:13-43
 	android:name
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:54:13-62
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:53:13-62
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:60:13-62:57
+ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:59:13-61:57
 	android:value
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:62:17-54
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:61:17-54
 	android:name
-		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:61:17-63
+		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml:60:17-63
 uses-sdk
 INJECTED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml
 INJECTED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml
-MERGED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/f3d435f7c795799337ccac859593faac/AndroidManifest.xml:25:5-27:41
-MERGED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/f3d435f7c795799337ccac859593faac/AndroidManifest.xml:25:5-27:41
+MERGED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/6721f951c2169cfdc2c699d03187442c/AndroidManifest.xml:25:5-27:41
+MERGED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/6721f951c2169cfdc2c699d03187442c/AndroidManifest.xml:25:5-27:41
 MERGED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5851b2156735c0342e97ddd70c76c81c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5851b2156735c0342e97ddd70c76c81c/AndroidManifest.xml:20:5-44
-MERGED from [uk.co.chrisjenx:calligraphy:2.2.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/calligraphy-2.2.0.aar/2224d8acdf579ebcf6cdf6c73d278c92/AndroidManifest.xml:7:5-9:41
-MERGED from [uk.co.chrisjenx:calligraphy:2.2.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/calligraphy-2.2.0.aar/2224d8acdf579ebcf6cdf6c73d278c92/AndroidManifest.xml:7:5-9:41
-MERGED from [com.amitshekhar.android:rx2-android-networking:1.0.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/rx2-android-networking-1.0.1.aar/68ef8e7d6b4a3c5d89059b5b0def7142/AndroidManifest.xml:25:5-27:41
-MERGED from [com.amitshekhar.android:rx2-android-networking:1.0.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/rx2-android-networking-1.0.1.aar/68ef8e7d6b4a3c5d89059b5b0def7142/AndroidManifest.xml:25:5-27:41
-MERGED from [com.amitshekhar.android:android-networking:1.0.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/android-networking-1.0.1.aar/cc8b635b94a61dad5f57607affcd2f44/AndroidManifest.xml:23:5-25:41
-MERGED from [com.amitshekhar.android:android-networking:1.0.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/android-networking-1.0.1.aar/cc8b635b94a61dad5f57607affcd2f44/AndroidManifest.xml:23:5-25:41
-MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/987df0cd65f8789f8df6c724cfffbcd0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/987df0cd65f8789f8df6c724cfffbcd0/AndroidManifest.xml:20:5-44
-MERGED from [com.mindorks:placeholderview:0.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/placeholderview-0.6.1.aar/5432036e671eb5fe0821169145de1d45/AndroidManifest.xml:8:5-10:41
-MERGED from [com.mindorks:placeholderview:0.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/placeholderview-0.6.1.aar/5432036e671eb5fe0821169145de1d45/AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/f2121ea2f549edd24129a86c276e9a8d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/f2121ea2f549edd24129a86c276e9a8d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/39bcee298355baae92f4e57c1d1ca55c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/39bcee298355baae92f4e57c1d1ca55c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/d685bf2933153190213434c9723bd6a5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/d685bf2933153190213434c9723bd6a5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/a4c1359ddb0982538ac9d4b0d120b109/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/a4c1359ddb0982538ac9d4b0d120b109/AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:glide:4.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/ceafdad2f4aee89c1ff4449b951c4281/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.bumptech.glide:glide:4.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/ceafdad2f4aee89c1ff4449b951c4281/AndroidManifest.xml:7:5-9:41
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/20d3b404c7b085b2bb1c57624dc7f3d5/AndroidManifest.xml:19:5-43
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/20d3b404c7b085b2bb1c57624dc7f3d5/AndroidManifest.xml:19:5-43
-MERGED from [com.jakewharton:butterknife:8.6.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/butterknife-8.6.0.aar/c1cc6924c555dd4ae4d07ef0d64bd8da/AndroidManifest.xml:5:5-43
-MERGED from [com.jakewharton:butterknife:8.6.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/butterknife-8.6.0.aar/c1cc6924c555dd4ae4d07ef0d64bd8da/AndroidManifest.xml:5:5-43
-MERGED from [com.jakewharton.timber:timber:4.5.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/fa7e45ced22ae218e6961d9e2ec26ce2/AndroidManifest.xml:6:5-43
-MERGED from [com.jakewharton.timber:timber:4.5.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/fa7e45ced22ae218e6961d9e2ec26ce2/AndroidManifest.xml:6:5-43
-MERGED from [net.zetetic:android-database-sqlcipher:3.5.7] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/android-database-sqlcipher-3.5.7.aar/c1402c89eb3051702997a3b94959a803/AndroidManifest.xml:3:3-40
-MERGED from [net.zetetic:android-database-sqlcipher:3.5.7] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/android-database-sqlcipher-3.5.7.aar/c1402c89eb3051702997a3b94959a803/AndroidManifest.xml:3:3-40
-MERGED from [android.arch.persistence.room:runtime:1.0.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/3d38842ef1399e4ddfd19a391bf03b8e/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.persistence.room:runtime:1.0.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/3d38842ef1399e4ddfd19a391bf03b8e/AndroidManifest.xml:20:5-22:41
-MERGED from [com.android.support:support-v4:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/d8394ca46ace2c6b6c9cc8a0e6a8746a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/d8394ca46ace2c6b6c9cc8a0e6a8746a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/af8ca4c935a0a764108ab289c5dc22b6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/af8ca4c935a0a764108ab289c5dc22b6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/eec0ee8425fbbe23fb240f657e4a3cbb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/eec0ee8425fbbe23fb240f657e4a3cbb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/a323672a9eb626536935fb0c4acdf4be/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/a323672a9eb626536935fb0c4acdf4be/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db-framework:1.0.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/db-framework-1.0.0.aar/4e9cbbcfc96d1b09003289c76a2e3c3b/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.persistence:db-framework:1.0.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/db-framework-1.0.0.aar/4e9cbbcfc96d1b09003289c76a2e3c3b/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.persistence:db:1.0.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/db-1.0.0.aar/d9597e95db4df36ea1c23a7b19ced441/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.persistence:db:1.0.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/db-1.0.0.aar/d9597e95db4df36ea1c23a7b19ced441/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.core:runtime:1.0.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/627fe7be5e7ca733842bf52a2ed86434/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.core:runtime:1.0.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/627fe7be5e7ca733842bf52a2ed86434/AndroidManifest.xml:20:5-22:41
-MERGED from [com.android.support:support-media-compat:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/08d85730da01351572f927666881eb34/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/08d85730da01351572f927666881eb34/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/2acaef3b68a899932377384f8e00a26d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/2acaef3b68a899932377384f8e00a26d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/33c5ab4c1612a78b1280ce7d363fb34f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/33c5ab4c1612a78b1280ce7d363fb34f/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/d3a1c698e79f85c70766ca35a364922a/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/d3a1c698e79f85c70766ca35a364922a/AndroidManifest.xml:20:5-22:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/de5eb84646bdf807a015ce6ca8e0f4c5/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/de5eb84646bdf807a015ce6ca8e0f4c5/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/d8f9972df9674c9751d4048023c79554/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/d8f9972df9674c9751d4048023c79554/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5a3236299fdb5cce3c44510acfca1d97/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/5a3236299fdb5cce3c44510acfca1d97/AndroidManifest.xml:20:5-44
+MERGED from [uk.co.chrisjenx:calligraphy:2.2.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/calligraphy-2.2.0.aar/7b069cc395669e0d74958326e206bd3d/AndroidManifest.xml:7:5-9:41
+MERGED from [uk.co.chrisjenx:calligraphy:2.2.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/calligraphy-2.2.0.aar/7b069cc395669e0d74958326e206bd3d/AndroidManifest.xml:7:5-9:41
+MERGED from [com.amitshekhar.android:rx2-android-networking:1.0.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/rx2-android-networking-1.0.1.aar/b93ca9012a1d41c9700131202c2c4729/AndroidManifest.xml:25:5-27:41
+MERGED from [com.amitshekhar.android:rx2-android-networking:1.0.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/rx2-android-networking-1.0.1.aar/b93ca9012a1d41c9700131202c2c4729/AndroidManifest.xml:25:5-27:41
+MERGED from [com.amitshekhar.android:android-networking:1.0.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/android-networking-1.0.1.aar/01abad7945cc88dd541e90b58cc5e131/AndroidManifest.xml:23:5-25:41
+MERGED from [com.amitshekhar.android:android-networking:1.0.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/android-networking-1.0.1.aar/01abad7945cc88dd541e90b58cc5e131/AndroidManifest.xml:23:5-25:41
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9a15bcc1d9a94eb133d9cf5e45a19962/AndroidManifest.xml:20:5-44
+MERGED from [com.mindorks:placeholderview:0.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/placeholderview-0.6.1.aar/7212c5779693b00fa8f5ba37df1d6ad7/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mindorks:placeholderview:0.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/placeholderview-0.6.1.aar/7212c5779693b00fa8f5ba37df1d6ad7/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/ea0cd22170a92ec5f17ca4936d612411/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/ea0cd22170a92ec5f17ca4936d612411/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/a1acf1cc60150fc9dad2def4c96fefa4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/a1acf1cc60150fc9dad2def4c96fefa4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/7cc823e9288b01f3dd3b00561e7cc272/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/7cc823e9288b01f3dd3b00561e7cc272/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/53483160ee77b0360316b99419377a8f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/53483160ee77b0360316b99419377a8f/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/05ec28a8e22951c6d8d38d17ae9ecb48/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/05ec28a8e22951c6d8d38d17ae9ecb48/AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/be0190fd86d679b764323e5e6f194d97/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/be0190fd86d679b764323e5e6f194d97/AndroidManifest.xml:19:5-43
+MERGED from [com.jakewharton:butterknife:8.6.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/butterknife-8.6.0.aar/0a71762a241298d294941720a23487e7/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.6.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/butterknife-8.6.0.aar/0a71762a241298d294941720a23487e7/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.5.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/536b6cae70925805980313b49624d1e1/AndroidManifest.xml:6:5-43
+MERGED from [com.jakewharton.timber:timber:4.5.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/536b6cae70925805980313b49624d1e1/AndroidManifest.xml:6:5-43
+MERGED from [net.zetetic:android-database-sqlcipher:3.5.7] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/android-database-sqlcipher-3.5.7.aar/6b8d37b3b4192f8c040982251017e6b6/AndroidManifest.xml:3:3-40
+MERGED from [net.zetetic:android-database-sqlcipher:3.5.7] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/android-database-sqlcipher-3.5.7.aar/6b8d37b3b4192f8c040982251017e6b6/AndroidManifest.xml:3:3-40
+MERGED from [android.arch.persistence.room:runtime:1.0.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/52a1d77436c0422bff1a0ad8e2472b98/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence.room:runtime:1.0.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/52a1d77436c0422bff1a0ad8e2472b98/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:support-v4:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/fc6afd7ced0adc920b4fbf458d54838b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/fc6afd7ced0adc920b4fbf458d54838b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/d41e010def72dd8b00e0bc7be4279186/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/d41e010def72dd8b00e0bc7be4279186/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/3ac278813a566324b4126b060d6e9efb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/3ac278813a566324b4126b060d6e9efb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/00b846ab38feb01d8002d1b74a2fc07f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/00b846ab38feb01d8002d1b74a2fc07f/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/rxbinding-0.4.0.aar/34da5d6949ed6f38f0a24704d5d9e0f7/AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/rxbinding-0.4.0.aar/34da5d6949ed6f38f0a24704d5d9e0f7/AndroidManifest.xml:6:5-44
+MERGED from [android.arch.persistence:db-framework:1.0.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/db-framework-1.0.0.aar/fba64ffd5d08443fc097cb5a4c4b7586/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db-framework:1.0.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/db-framework-1.0.0.aar/fba64ffd5d08443fc097cb5a4c4b7586/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db:1.0.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/db-1.0.0.aar/1bd3a2437edb400a60853cd20acbee33/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db:1.0.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/db-1.0.0.aar/1bd3a2437edb400a60853cd20acbee33/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.core:runtime:1.0.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/aa2314c11d50ec6ab4969227ca3fe526/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.core:runtime:1.0.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/aa2314c11d50ec6ab4969227ca3fe526/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/5d5d4d896eccb9353047b4a17f04cdaf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/5d5d4d896eccb9353047b4a17f04cdaf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/3e456aabb9dbe3e2a565b5893e46bdb7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/3e456aabb9dbe3e2a565b5893e46bdb7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/d9c648590301e31972158c0bc2852589/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/d9c648590301e31972158c0bc2852589/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/5d08345df77b6eedba47166b7c4ae0ec/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/5d08345df77b6eedba47166b7c4ae0ec/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/0c1c710db7e3959181817d2a1a6d9d78/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/0c1c710db7e3959181817d2a1a6d9d78/AndroidManifest.xml:5:5-7:41
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.9.5.aar/1327185794f85b902f00dcff286e5dcc/AndroidManifest.xml:7:5-9:41
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.9.5.aar/1327185794f85b902f00dcff286e5dcc/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/849e8ab79c3fe1830fe262800da2e5b7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/849e8ab79c3fe1830fe262800da2e5b7/AndroidManifest.xml:5:5-7:41
+MERGED from [io.reactivex:rxandroid:1.1.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/rxandroid-1.1.0.aar/ced555bcca2e4c3a6696eaf61898b811/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.1.0] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/rxandroid-1.1.0.aar/ced555bcca2e4c3a6696eaf61898b811/AndroidManifest.xml:19:5-43
 INJECTED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml
 INJECTED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -225,24 +232,38 @@ INJECTED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml
 		ADDED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/liuxueping/Downloads/AdSdk/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/f3d435f7c795799337ccac859593faac/AndroidManifest.xml:30:5-76
+ADDED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/6721f951c2169cfdc2c699d03187442c/AndroidManifest.xml:30:5-76
 	android:name
-		ADDED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/f3d435f7c795799337ccac859593faac/AndroidManifest.xml:30:22-73
+		ADDED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/6721f951c2169cfdc2c699d03187442c/AndroidManifest.xml:30:22-73
 provider#com.amitshekhar.DebugDBInitProvider
-ADDED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/f3d435f7c795799337ccac859593faac/AndroidManifest.xml:33:9-37:40
+ADDED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/6721f951c2169cfdc2c699d03187442c/AndroidManifest.xml:33:9-37:40
 	android:enabled
-		ADDED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/f3d435f7c795799337ccac859593faac/AndroidManifest.xml:36:13-35
+		ADDED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/6721f951c2169cfdc2c699d03187442c/AndroidManifest.xml:36:13-35
 	android:authorities
-		ADDED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/f3d435f7c795799337ccac859593faac/AndroidManifest.xml:35:13-71
+		ADDED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/6721f951c2169cfdc2c699d03187442c/AndroidManifest.xml:35:13-71
 	android:exported
-		ADDED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/f3d435f7c795799337ccac859593faac/AndroidManifest.xml:37:13-37
+		ADDED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/6721f951c2169cfdc2c699d03187442c/AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/f3d435f7c795799337ccac859593faac/AndroidManifest.xml:34:13-63
+		ADDED from [com.amitshekhar.android:debug-db:1.0.3] /Users/liuxueping/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/6721f951c2169cfdc2c699d03187442c/AndroidManifest.xml:34:13-63
+uses-permission#android.permisstion.ACCESS_FINE_LOCATION
+ADDED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:22-77
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-75
+ADDED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-75
 	android:name
-		ADDED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:22-72
+		ADDED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:22-72
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:5-19:17
+	android:value
+		ADDED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:18:9-49
+	android:name
+		ADDED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:9-48
 activity#com.idouzi.adsdk.flowbanksdk.activity.WebViewActivity
-ADDED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:9-90
+ADDED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:22:9-90
 	android:name
-		ADDED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:19-87
+		ADDED from [:flowbanksdk] /Users/liuxueping/Downloads/AdSdk/flowbanksdk/build/intermediates/manifests/full/debug/AndroidManifest.xml:22:19-87

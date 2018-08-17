@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.content.res.TypedArray;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
 import android.graphics.Rect;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -46,6 +48,7 @@ import java.util.LinkedHashSet;
 
 public class BannerView extends AppCompatImageView implements Position {
     public final static String TAG = "BannerView";
+    //状态
     private final static String EVENT_AD_LOAD = "ad_load";
     private final static String EVENT_AD_SHOW = "ad_show";
     private final static String EVENT_AD_TAPS = "ad_taps";
@@ -55,6 +58,8 @@ public class BannerView extends AppCompatImageView implements Position {
     AdAPI adAPI;
     Ad ad;
     HashMap<String, String> eventMap = new HashMap<>();
+
+    private boolean  isText  =false;
 
 
     public BannerView(Context context) {
@@ -114,6 +119,8 @@ public class BannerView extends AppCompatImageView implements Position {
 
     @Override
     public void loadAd() {
+
+        //验证广告id是否为空
         if (!TextUtils.isEmpty(adUnitId)) {
             eventMap.put(adAPI.getAd(adUnitId), EVENT_AD_LOAD);
 
@@ -141,8 +148,14 @@ public class BannerView extends AppCompatImageView implements Position {
 
     @Override
     public void adShow() {
-        Glide.with(getContext()).load(ad.getImgUrl()).into(this);
-        if (isCover()) {
+        if(!TextUtils.isEmpty(ad.getImgUrl())){
+            isText =false;
+            Glide.with(getContext()).load(ad.getImgUrl()).into(this);
+        }else {
+          isText =true;
+          setBackgroundColor(Color.parseColor("88596371"));
+        }
+        if (ConvertUtils.isCover(this)) {
             Logger.i(TAG, "广告内容被遮挡！");
             return;
         }
@@ -151,7 +164,8 @@ public class BannerView extends AppCompatImageView implements Position {
 
     @Override
     public void adShowReport() {
-        adAPI.showAdReport(adUnitId, ad.getId());
+       String uuid  =  adAPI.showAdReport(adUnitId, ad.getId());
+       eventMap.put(uuid,EVENT_AD_SHOW);
     }
 
     @Override
@@ -183,7 +197,8 @@ public class BannerView extends AppCompatImageView implements Position {
 
     @Override
     public void adTapsReport() {
-        adAPI.adTapsReport(adUnitId, ad.getId());
+        String uuid  =adAPI.adTapsReport(adUnitId, ad.getId());
+        eventMap.put(uuid,EVENT_AD_SHOW);
     }
 
     @Override
@@ -211,47 +226,7 @@ public class BannerView extends AppCompatImageView implements Position {
         return super.onTouchEvent(event);
     }
 
-    public boolean isCover() {
-        Rect currentViewRect = new Rect();
-        boolean cover = getGlobalVisibleRect(currentViewRect);
-        if (cover) {
-            if (currentViewRect.width() < getMeasuredWidth() || currentViewRect.height() < getMeasuredHeight()) {
-                return true;
-            }
-        } else {
-            return true;
-        }
-        View currentView = this;
-        while (currentView.getParent() instanceof ViewGroup) {
-            ViewGroup viewGroup = (ViewGroup) currentView.getParent();
-            if (viewGroup.getVisibility() != View.VISIBLE) {
-                return true;
-            }
 
-            int start = indexofViewInParent(currentView, viewGroup);
-            for (int i = start + 1; i < viewGroup.getChildCount(); i++) {
-                Rect otherRect = new Rect();
-                View otherView = viewGroup.getChildAt(i);
-                otherView.getGlobalVisibleRect(otherRect);
-                if (Rect.intersects(currentViewRect, otherRect)) {
-                    return true;
-                }
-            }
-            currentView = viewGroup;
-        }
-
-        return false;
-    }
-
-    private int indexofViewInParent(View view, ViewGroup viewGroup) {
-        int index;
-        for (index = 0; index < viewGroup.getChildCount(); index++) {
-            if (viewGroup.getChildAt(index) == view) {
-                break;
-            }
-        }
-        return index;
-    }
 
     @Override
     protected void onDetachedFromWindow() {
@@ -300,6 +275,20 @@ public class BannerView extends AppCompatImageView implements Position {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
+        if(isText&&null!=ad){
+            String text = ad.getText();
+            drawText(canvas,text);
+        }
+    }
 
+    private void drawText(Canvas canvas,String text){
+        Paint paint  = new Paint(Paint.ANTI_ALIAS_FLAG);
+        paint.setTextAlign(Paint.Align.CENTER);
+        paint.setTextSize(60);
+        paint.setColor(Color.WHITE);
+        int x = getWidth()/2;
+        Paint.FontMetricsInt mFontMetricsInt  =paint.getFontMetricsInt();
+        int y = (getHeight() - mFontMetricsInt.ascent - mFontMetricsInt.descent) / 2;
+        canvas.drawText(text,x,y,paint);
     }
 }
